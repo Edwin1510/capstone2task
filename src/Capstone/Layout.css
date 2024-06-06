@@ -1,0 +1,35 @@
+header {
+    position: fixed;
+    width: 100vw;
+    height: 75px;
+    background-color: rgb(184, 194, 187);
+    top: 0px;
+}
+
+/* Aside (Sidebar) styling */
+aside {
+    position: fixed;
+    width: 100px;
+    height: calc(100vh - 75px);
+    background-color: rgb(184, 194, 187);
+    top: 75px;
+    text-align: center;
+}
+
+aside a {
+    display: block;
+    margin: 20px 0;
+    color: inherit;
+    text-decoration: none;
+}
+
+aside a:hover {
+    color: #007BFF;
+}
+
+/* Main content styling */
+.main-content {
+    margin-top: 80px;
+    margin-left: 200px;
+    padding: 16px;
+}

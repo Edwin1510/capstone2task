@@ -1,0 +1,84 @@
+
+/* Basic form container styling */
+.form {
+    width: 80%;
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f2f2f2;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Label styling */
+  form label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  /* Input field styling */
+  form input[type="email"],
+  form input[type="text"],
+  form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+  }
+  
+  /* Textarea specific styling */
+  form textarea {
+    resize: vertical;
+  }
+  
+  /* Submit button styling */
+  form input[type="submit"] {
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  /* Submit button hover effect */
+  form input[type="submit"]:hover {
+    background-color: #45a049;
+  }
+  
+  
+
+  .Compose {
+    background-color: #ffffff; /* Gmail has a white background */
+    border: 1px solid #e0e0e0; /* Light gray border */
+    border-radius: 5px; /* Rounded corners */
+    padding: 20px; /* Some padding around the content */
+    margin: 10px 0; /* Margin around the component */
+    font-family: Arial, sans-serif; /* Use a clean, sans-serif font */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Light shadow for depth */
+}
+
+.Compose h4, .Compose h2 {
+    margin: 5px 0; /* Small margins to separate text elements */
+}
+
+.Compose h4 {
+    color: #333333; /* Dark gray text for to and subject */
+    font-size: 14px; /* Slightly smaller font size */
+}
+
+.Compose h2 {
+    color: #000000; /* Black text for the message */
+    font-size: 16px; /* Larger font size for the message */
+}
+
+.Compose h4 span, .Compose h2 span {
+    font-weight: normal; /* Normal font weight for the dynamic parts */
+}
+  
